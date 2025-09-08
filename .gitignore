@@ -8,6 +8,35 @@ yarn-debug.log*
 yarn-error.log*
 *.local
 
+
+
+
+# React (Node.js)
+Frontend/node_modules/
+Frontend/build/
+Frontend/.env
+Frontend/*.log
+Frontend/yarn-error.log
+Frontend/npm-debug.log
+
+# FastAPI (Python)
+Backend/__pycache__/
+Backend/*.py[cod]
+Backend/.env
+Backend/venv/
+Backend/env/
+Backend/.pytest_cache/
+Backend/*.sqlite3
+Backend/*.log
+
+# General
+.vscode/
+.DS_Store
+*.log
+.idea/
+
+Backend/.env
+Frontend/.env
 # Python (FastAPI backend)
 __pycache__/
 *.py[cod]

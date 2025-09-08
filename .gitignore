@@ -1,0 +1,48 @@
+# Node.js (React app)
+node_modules/
+build/
+dist/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.local
+
+# Python (FastAPI backend)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env.*
+venv/
+env/
+ENV/
+*.sqlite3
+*.log
+
+# VSCode (if you use it)
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# pycache
+__pycache__/
+
+# mypy
+.mypy_cache/
+
+# pytest
+.pytest_cache/
+
+# Other editor configs
+.idea/
+*.swp

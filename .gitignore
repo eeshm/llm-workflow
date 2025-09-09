@@ -37,7 +37,11 @@ Backend/*.log
 
 Backend/.env
 Frontend/.env
+
+
 # Python (FastAPI backend)
+
+
 __pycache__/
 *.py[cod]
 *.pyo

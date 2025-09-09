@@ -64,7 +64,7 @@ function WorkspacePanel({
         id: getId(),
         type,
         position,
-        data: { label: `${type} node` },
+        data: { label: `${type} node`, },
       };
 
       setNodes((nds) => nds.concat(newNode));

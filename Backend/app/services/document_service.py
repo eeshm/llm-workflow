@@ -94,6 +94,9 @@ def generate_embedding(text: str) -> List[float]:
         logger.error(f"Error generating embedding: {str(e)}")
         raise
 
+
+
+
 def process_document(file: UploadFile, file_name: str, db_session: Session) -> int:
     """
     Process uploaded PDF document through the entire ingestion pipeline.

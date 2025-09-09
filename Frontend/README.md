@@ -1,12 +1,67 @@
-# React + Vite
+# Frontend: Visual Workflow Canvas 🎨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This directory contains the React frontend for the No-Code AI Workflow Builder. It provides the user interface for designing and interacting with intelligent workflows using a drag-and-drop canvas powered by React Flow.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+-   **Component Palette:** A list of draggable nodes (User Query, KnowledgeBase, etc.).
+-   **Interactive Canvas:** Supports dragging, dropping, connecting, and selecting nodes.
+-   **Dynamic Configuration Panel:** A side panel that shows settings for the selected node.
+-   **Chat Modal:** An interface to send queries to the built workflow and see results.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Local Development Setup
+
+### Prerequisites
+
+-   Node.js (v18 or higher)
+-   NPM or Yarn
+
+### Setup Instructions
+
+1.  **Navigate to the frontend directory:**
+    ```bash
+    cd frontend
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Configure Environment Variables:**
+    -   By default, the application is configured to connect to the backend API at `http://localhost:8000`. If your backend is running elsewhere, you can create a `.env.local` file to override the API base URL:
+    ```
+    VITE_API_BASE_URL=http://your-backend-url
+    ```
+
+4.  **Run the Development Server:**
+    ```bash
+    npm run dev
+    ```
+    The application will be available at `http://localhost:5173`.
+
+---
+
+## Available Scripts
+
+-   `npm run dev`: Starts the development server with Hot Module Replacement.
+-   `npm run build`: Bundles the app for production.
+-   `npm run preview`: Serves the production build locally.
+
+---
+
+## Project Structure
+
+/
+|-- src/
+|   |-- components/     # Main UI components (panels, modals).
+|   |-- nodes/          # Custom React Flow node components.
+|   |-- App.jsx         # Main application layout.
+|   |-- main.jsx        # Application entry point. 
+
+
+(More details about each repo are in their README.md files inside each folder)

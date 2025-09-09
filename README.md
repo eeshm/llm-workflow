@@ -98,4 +98,4 @@ Your application should now be running, with the frontend available at `http://l
 More detailed Code Documentation: `https://docs.google.com/document/d/10TlLCBmtMV5ClIkvPf6kxelhiUSHNIKBQ7PbgQ6zEik/edit?usp=sharing`
 
 
-![Screenshot of Frontend UI.](public/frontendUI.png)
+![Screenshot of Frontend UI.](images/frontendUI.png)

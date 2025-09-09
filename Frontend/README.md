@@ -55,13 +55,13 @@ This directory contains the React frontend for the No-Code AI Workflow Builder. 
 ---
 
 ## Project Structure
-
+<code><pre>
+```
 /
 |-- src/
 |   |-- components/     # Main UI components (panels, modals).
 |   |-- nodes/          # Custom React Flow node components.
 |   |-- App.jsx         # Main application layout.
 |   |-- main.jsx        # Application entry point. 
-
-
-(More details about each repo are in their README.md files inside each folder)
+```
+</code></pre>

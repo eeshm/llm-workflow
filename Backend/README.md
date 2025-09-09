@@ -68,7 +68,8 @@ curl -X POST "http://localhost:8000/api/v1/query" \
 ---
 
 ## Project Structure
-
+<pre><code>
+```
 /
 |-- api/          # FastAPI routers and endpoints.
 |-- core/         # Application configuration.
@@ -76,3 +77,5 @@ curl -X POST "http://localhost:8000/api/v1/query" \
 |-- services/     # Business logic for documents, queries, and workflows.
 |-- main.py       # Main FastAPI application instance.
 |-- requirements.txt
+```
+</code></pre>

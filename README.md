@@ -1,4 +1,4 @@
-# No-Code AI Workflow Builder 🚀
+# No-Code AI Workflow Builder
 
 This project is a full-stack web application that allows users to visually design, build, and interact with intelligent workflows. Users can connect components to handle queries, retrieve knowledge from documents, and generate responses from Large Language Models (LLMs).
 
